@@ -1,0 +1,158 @@
+# E-Commerce Customer and Revenue Intelligence Platform
+
+## 1. Project Overview
+
+This project is an end-to-end e-commerce data analytics project that explores historical online retail transactions. It uses Python, Microsoft Excel, MySQL, and Power BI to clean data, analyze business performance, and present findings through interactive dashboards.
+
+The project focuses on sales quantity, order activity, customer purchasing behavior, product performance, country-level performance, and cancellations.
+
+## 2. Business Objectives
+
+- Analyze order and sales quantity trends.
+- Identify top-performing products.
+- Understand customer purchasing activity.
+- Compare performance across countries.
+- Analyze cancellation quantities and cancelled orders.
+- Build an interactive Power BI dashboard for business reporting.
+- Develop practical recommendations based on the analysis.
+
+## 3. Tools and Technologies
+
+| Tool | Purpose |
+|---|---|
+| Python | Data cleaning, transformation, and exploratory analysis |
+| Pandas and NumPy | Data manipulation and calculations |
+| Microsoft Excel | KPI analysis, summaries, and validation |
+| MySQL | Database storage and SQL-based analysis |
+| Power BI | Interactive dashboards and visualizations |
+| GitHub | Project version control and portfolio sharing |
+
+## 4. Project Folder Structure
+
+```text
+e-commerce customer and revenue intelligence platform/
+├── 01 raw data/
+├── 02 cleaned data/
+├── 02.1 Data_Profile.txt/
+├── 03 excel/
+├── 04 sql/
+├── 05 python/
+├── 06p power bi/
+├── 07 documentation/
+├── 08 screenshots/
+└── README.md
+```
+
+## 5. Dataset Information
+
+The project uses historical online retail transaction data.
+
+- Original dataset: 541,909 rows
+- Original columns: 8
+- Prepared dataset: 536,482 rows
+- Prepared columns: 20
+- Reported analysis period: 1 December 2010 to 9 December 2011
+
+The dataset includes invoice numbers, product codes, product descriptions, quantities, invoice dates, unit prices, customer IDs, and countries.
+
+## 6. Project Workflow
+
+### Phase 1: Data Cleaning with Python
+
+- Loaded and inspected the raw dataset.
+- Reviewed missing values and duplicate records.
+- Converted invoice dates to appropriate date formats.
+- Created year, month, quarter, day, and hour fields.
+- Prepared sales and cancellation quantity fields.
+- Exported the prepared analysis dataset.
+
+### Phase 2: Excel Analysis
+
+- Prepared KPI summaries.
+- Analyzed monthly activity.
+- Compared country and product performance.
+- Examined customer activity.
+- Reviewed cancellations and quantities.
+
+### Phase 3: MySQL Analysis
+
+- Created the ecommerce_analysis database.
+- Created the ecommerce table.
+- Wrote queries to analyze distinct invoices and quantities.
+- Compared countries and products.
+- Analyzed customer activity and monthly performance.
+
+### Phase 4: Power BI Dashboard
+
+The Power BI report contains five pages:
+
+1. Executive Overview
+2. Product Analysis
+3. Customer Analysis
+4. Country Analysis
+5. Cancellation Analysis
+
+The report uses KPI cards, charts, tables, slicers, and interactive filters to explore business performance.
+
+## 7. Key Findings
+
+The project report records the following results for the prepared dataset:
+
+- Total sales quantity: 5,437,786 units.
+- Total cancellation quantity: 274,732 units.
+- Distinct orders: 25,900.
+- Identified customers: 4,372.
+- Unique stock codes: 4,070.
+- Countries represented: 38.
+- United Kingdom sales quantity: 4,511,107 units.
+- November 2011 sales quantity: 749,765 units.
+
+These values must be validated against the final Excel, SQL, and Power BI results before being treated as final business KPIs.
+
+## 8. Dashboard Screenshots
+
+Screenshots of the report are stored in the `08 screenshots` folder.
+
+The screenshots cover:
+
+- Executive Overview
+- Product Analysis
+- Customer Analysis
+- Country Analysis
+- Cancellation Analysis
+
+## 9. Business Recommendations
+
+- Monitor monthly demand to support inventory planning.
+- Identify products with unusually high or negative quantities.
+- Investigate cancellation patterns and potential operational issues.
+- Compare country-level performance to identify important markets.
+- Study customer order frequency to understand purchasing behavior.
+- Validate financial metrics before using them for revenue or profitability decisions.
+
+## 10. Data Quality and Limitations
+
+- Some customer IDs are missing.
+- Unusual transaction quantities require validation.
+- Cancellation figures must be reconciled across the analysis tools.
+- Date relationships and monthly aggregation must be checked in Power BI.
+- Revenue and profit measures should not be treated as validated until their calculations have been verified.
+
+## 11. Future Improvements
+
+- Complete cross-tool KPI validation.
+- Add validated revenue and profit-margin metrics.
+- Improve automated data-quality checks.
+- Publish the dashboard where appropriate.
+- Add further documentation and dashboard screenshots.
+
+## 12. Conclusion
+
+This project demonstrates an end-to-end analytics workflow using Python, Excel, MySQL, and Power BI. It transforms transaction-level data into structured analysis and interactive reporting to help explore product performance, customer behavior, country-level activity, and cancellations.
+
+
+## Data Files
+
+The raw dataset and cleaned Excel workbook are not included in this repository because of file upload limitations.
+
+The repository contains the analysis code, SQL scripts, Power BI report, and project documentation. The dataset can be provided separately where sharing permissions allow.
