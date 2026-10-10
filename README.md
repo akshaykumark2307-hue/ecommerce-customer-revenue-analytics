@@ -1,79 +1,106 @@
 # E-Commerce Customer and Revenue Analytics
 
+An end-to-end e-commerce data analytics project using **Python, Excel, MySQL, and Power BI** to analyze transaction data, customer purchasing behavior, product performance, country-level sales, and cancellations.
+
+The project demonstrates the complete analytics workflow, from data preparation and exploratory analysis to SQL querying, interactive visualization, and business reporting.
+
 ## Project Overview
 
-This is an end-to-end data analytics project focused on
-e-commerce transactions, product performance, customer
-behavior, country-level performance, and cancellations.
+E-commerce transaction data can reveal important patterns in sales, customers, and products. This project uses multiple analytics tools to organize the data, answer business questions, and present findings in a business-friendly format.
 
-The project demonstrates how multiple data analytics tools
-can be used to transform transaction data into meaningful
-business insights.
+## Business Objectives
+
+- Analyze transaction and order performance.
+- Identify products with high sales quantities.
+- Understand customer purchasing behavior.
+- Compare sales quantities across countries.
+- Investigate cancelled transactions and their patterns.
+- Develop an interactive Power BI report for business analysis.
 
 ## Tools and Technologies
 
-- Python
-- Jupyter Notebook
-- Microsoft Excel
-- MySQL
-- Power BI
-
-## Project Objectives
-
-- Analyze e-commerce transaction data.
-- Identify top-performing products.
-- Understand customer purchasing behavior.
-- Analyze country-level sales quantities.
-- Investigate cancellation patterns.
-- Build interactive business intelligence dashboards.
+| Technology | Application |
+|---|---|
+| Python | Data cleaning, feature engineering, and analysis |
+| Pandas and NumPy | Data manipulation and calculations |
+| Jupyter Notebook | Analysis workflow and documentation |
+| Microsoft Excel | Spreadsheet analysis and reporting |
+| MySQL | SQL queries and business analysis |
+| Power BI | Interactive reports and visualizations |
+| GitHub | Project documentation and version control |
 
 ## Project Workflow
 
-1. Data preparation and quality checks
-2. Exploratory data analysis using Python
-3. Business analysis using Excel
-4. SQL queries using MySQL
-5. Interactive dashboard development using Power BI
-6. Documentation and business insights
+1. **Data preparation:** Inspect the dataset, handle data quality issues, and prepare analysis-ready data.
+2. **Python analysis:** Explore transactions, customers, products, dates, and cancellations.
+3. **Excel analysis:** Review business metrics and summarize important findings.
+4. **MySQL analysis:** Query the data to answer business questions.
+5. **Power BI reporting:** Present key metrics and trends through interactive report pages.
+6. **Documentation:** Summarize the methodology, findings, and recommendations.
 
-## Project Files
+## Dashboard Preview
 
-- Python Notebook: Data analysis and exploratory analysis
-- SQL Script: Database queries and business analysis
-- Power BI Report: Interactive dashboard
-- Project Report: Project methodology and findings
+The Power BI report explores the following areas:
 
-## Data Availability
+- Executive Overview
+- Product Analysis
+- Customer Analysis
+- Country Analysis
+- Cancellation Analysis
 
-The raw dataset and cleaned Excel workbook are not
-included in this repository because of file-size limits.
-
-The data can be provided separately where sharing
-permissions allow.
+Dashboard screenshots will be available in the `screenshots/` folder.
 
 ## Key Business Questions
 
 - Which products have the highest sales quantities?
-- Which countries have the highest sales quantities?
-- How many distinct orders and identified customers exist?
-- What patterns can be observed in cancellations?
-- How can transaction data support business decisions?
+- Which countries contribute the highest sales quantities?
+- How many distinct orders and identified customers are present?
+- What patterns appear in cancelled transactions?
+- How do sales trends change over time?
+- What actions could help improve business performance?
 
-## Results
+## Results and Insights
 
-The analysis examines product performance, customer
-activity, country-level trends, and cancellation patterns.
+The analysis covers product performance, customer activity, country-level trends, and cancellations.
 
-Verified numerical findings will be documented after
-cross-checking the Python, Excel, SQL, and Power BI results.
+Verified numerical KPIs and findings should be added here after cross-checking the Python, Excel, SQL, and Power BI results.
 
-## How to Explore This Project
+For each finding, include the metric, the result, what it means for the business, and a recommended action.
 
-1. Open the Python notebook to review the analysis.
-2. Review the SQL script to understand the queries.
-3. Open the Power BI report using Power BI Desktop.
-4. Read the project report for methodology and findings.
+## Project Files
+
+- **Python notebook:** Data analysis and exploratory analysis.
+- **SQL script:** Queries for business analysis.
+- **Power BI report:** Interactive dashboard.
+- **PDF report:** Project findings and methodology.
+- **Word report:** Detailed project documentation.
+
+See the repository files for the available deliverables.
+
+## Dataset Information
+
+The raw dataset and cleaned Excel workbook are not included in this repository because of file-size limitations.
+
+The dataset should be obtained from its original source or provided separately where sharing permissions allow. Data preparation steps should be documented so the analysis can be understood and reproduced.
+
+## Business Recommendations
+
+Recommendations should be based on verified analysis findings. Potential areas to investigate include:
+
+- Reviewing high-demand and low-demand products.
+- Understanding customer purchasing patterns.
+- Comparing country-level performance.
+- Investigating the causes of cancelled transactions.
+- Monitoring business KPIs regularly.
+
+## Conclusion
+
+This project demonstrates the use of Python, Excel, MySQL, and Power BI in an end-to-end e-commerce analytics workflow. It combines data preparation, analysis, visualization, and reporting to support evidence-based business decisions.
 
 ## Author
 
-Akshay Kumar K.
+**Akshay Kumar K.**
+
+Data Analytics Portfolio Project
+
+**Skills:** Python | Excel | MySQL | Power BI | Data Analysis
